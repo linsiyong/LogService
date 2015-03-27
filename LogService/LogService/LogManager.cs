@@ -17,6 +17,7 @@ namespace LogService
     {
         public void WriteAccessLogs(List<AccessLog> logs)
         {
+            //test
             foreach (var log in logs)
             {
                 logQuery.Enqueue(log);
